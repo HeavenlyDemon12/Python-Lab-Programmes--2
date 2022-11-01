@@ -1,0 +1,7 @@
+a=int(input('enter the value of a:'))
+b=int(input('enter the value of b:'))
+c=int(input('enter the value of c:'))
+d=(b*b)-(4*a*c)
+x1=(-b-(d)**0.5)/(2*a)
+x1=(-b+(d)**0.5)/(2*a)
+print('the solution are ' + str(x1),str(x2))
